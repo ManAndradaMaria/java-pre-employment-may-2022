@@ -9,7 +9,10 @@ function Exercise3() {
         </p>
       </div>
       <div className="solution-container">
-        <i>You can delete me and put the solution in this container.</i>
+      <button id="id1" onClick={()=> alert("Button1")}>Button1</button>  
+      <button id="id2" onClick={()=> alert("Button2")}>Button2</button>  
+      <button id="id3" onClick={()=> alert("Button3")}>Button3</button>  
+      <button id="id4" onClick={()=> alert("Button4")}>Button4</button>  
       </div>
     </div>
   );

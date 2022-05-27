@@ -5,4 +5,23 @@
 .solution-container {
   border-top: 1px solid black;
   margin-top: 1rem;
+
+}
+.solution-container-exercise1{
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  text-align: center
+}
+#id1{
+  background-color: red;
+}
+#id2{
+  background-color: #4CAF50;
+}
+#id3{
+  background-color:aqua;
+}
+#id4{
+  background-color: orange;
 }

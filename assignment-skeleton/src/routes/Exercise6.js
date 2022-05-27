@@ -31,7 +31,7 @@ function Exercise6() {
           accordingly.
         </p>
         <div className="solution-container">
-          <i>You can delete me and put the solution in this container.</i>
+        users.map(users ={">"}<h2>{users}</h2>)
         </div>
       </div>
     </div>

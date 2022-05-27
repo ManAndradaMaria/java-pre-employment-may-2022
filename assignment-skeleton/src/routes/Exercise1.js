@@ -8,8 +8,8 @@ function Exercise1() {
           text should be vertically and horizontally aligned.
         </p>
       </div>
-      <div className="solution-container">
-        <i>You can delete me and put the solution in this container.</i>
+      <div className="solution-container-exercise1">
+        <h3>Hello World!</h3>
       </div>
     </div>
   );

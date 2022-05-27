@@ -7,8 +7,10 @@ function Exercise2() {
           and alert the message, "You cliked me. Thanks!".
         </p>
       </div>
-      <div className="solution-container">
-        <i>You can delete me and put the solution in this container.</i>
+      <div className="solution-container-exercise2">
+        {/* <i></i> */}
+         <button onClick={()=> alert("You cliked me. Thanks!")}>Click me</button>  
+       
       </div>
     </div>
   );

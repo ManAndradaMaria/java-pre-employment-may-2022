@@ -1,4 +1,6 @@
+import React, { useState } from 'react';
 function Exercise4() {
+  const [count, setCount] = useState(0);
   return (
     <div>
       <div>
@@ -6,8 +8,11 @@ function Exercise4() {
           Use the useState React hook to track how many times a button is
           clicked, and display the number.
         </p>
+        
         <div className="solution-container">
-          <i>You can delete me and put the solution in this container.</i>
+        <p>{count}</p>  
+        <button onClick={() => setCount(count + 1)}> Click me</button>
+          
         </div>
       </div>
     </div>
@@ -15,3 +20,4 @@ function Exercise4() {
 }
 
 export default Exercise4;
+

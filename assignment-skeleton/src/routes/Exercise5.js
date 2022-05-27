@@ -9,8 +9,12 @@ function Exercise5() {
     "Skye Roberts",
     "Hugo Gray",
     "Eddie Lee",
-    "Hannah Reid",
+    "Hannah Reid"
   ];`;
+    const myLists = users.myLists;  
+    const listItems = myLists.map((myList) =>  
+      <li>{myList}</li>  
+    );  
 
   return (
     <div>
@@ -28,7 +32,7 @@ function Exercise5() {
           Use the map function to render the array in an unordered list.
         </p>
         <div className="solution-container">
-          <i>You can delete me and put the solution in this container.</i>
+            <ul>{listItems}</ul>
         </div>
       </div>
     </div>
@@ -36,3 +40,4 @@ function Exercise5() {
 }
 
 export default Exercise5;
+
